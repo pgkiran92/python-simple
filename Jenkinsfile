@@ -1,7 +1,7 @@
 @Library('SharedLibrary') _
 
 node {
-    stage('clone') { 
+    stage('checkout') { 
         checkout scm        
     }
     stage('Initialize'){
